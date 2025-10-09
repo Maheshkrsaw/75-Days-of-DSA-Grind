@@ -7,8 +7,6 @@ print this line of code
 
 */
 
-
-
 // let n=4;
 // for (let i=0;i<n;i++){
 //     let row="";
@@ -19,9 +17,6 @@ print this line of code
 
 // }
 
-
-
-
 /*
 2) print this line of code 
 * 
@@ -30,8 +25,6 @@ print this line of code
 * * * *
 
 */
-
-
 
 // for (let i=0;i<4;i++){
 //     let row="";
@@ -51,7 +44,6 @@ q....)
  1 2 3 4 5
 */
 
-
 // for (let i=0;i<=4;i++){
 //     let row="";
 // for (let j=0;j<=i;j++){
@@ -60,7 +52,6 @@ q....)
 // console.log(row);
 
 // }
-
 
 /*
  1
@@ -79,14 +70,18 @@ q....)
 
 // }
 
+/*
+ 1 2 3 4 5
+ 1 2 3 4
+ 1 2 3
+ 1 2
+ 1
+ */
 
-
-
-for (let i=0;i<=4;i++){
-    let row="";
-for (let j=0;j<=i;j++){
-row= row +" " + ( i+1);
-}
-console.log(row);
-
+for (let i = 0; i < 5; i++) {
+  let row = "";
+  for (let j = 1; j <= 5 - i; j++) {
+    row = row + " " + j;
+  }
+  console.log(row);
 }
