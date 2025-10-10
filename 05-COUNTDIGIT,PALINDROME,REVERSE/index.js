@@ -38,3 +38,23 @@ let results=ispalindrome(num);
 console.log(results);
 */
 
+
+/*
+Q)reverse the no with -ve case handling ??
+
+function reverseno(x) {
+  let xcopy = x;
+  x=Math.abs(x)
+  let rev = 0;
+  while (x > 0) {
+    let last = x % 10;
+    rev = rev * 10 + last;
+    x = Math.floor(x / 10);
+  }
+  return (xcopy<0)?-rev : rev;
+}
+
+let num = -1234565465454798;
+let results = reverseno(num);
+console.log(results);
+*/
