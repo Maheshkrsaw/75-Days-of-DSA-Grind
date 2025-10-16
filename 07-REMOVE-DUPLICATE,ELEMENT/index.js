@@ -1,4 +1,4 @@
-/*
+
 // remove duplicates in inplace
 
 let nums = [0, 0, 1, 1, 2, 2, 3, 3, 4];
@@ -16,7 +16,7 @@ function removeDuplicates(nums) {
 
 let result = removeDuplicates(nums);
 console.log(result, nums);
-*/
+
 
 
 
