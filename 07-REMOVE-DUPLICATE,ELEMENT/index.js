@@ -43,6 +43,7 @@ console.log(result, nums);
 // console.log(result, nums);
 
 
+// remove Element
 
 let nums = [3,1,3,4,3,3,3,7];
 let val = 3;
