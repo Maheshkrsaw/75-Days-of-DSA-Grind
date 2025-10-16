@@ -62,3 +62,4 @@ function removeElement(val, nums) {
 let result = removeElement(val, nums);
 console.log("New length:", result);
 console.log("Updated array:", nums.slice(0, result));
+*/
