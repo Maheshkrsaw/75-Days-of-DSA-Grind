@@ -1,3 +1,7 @@
+/*
+
+q) reverse the string
+
 let arr = ['h', 'e', 'l', 'l', 'o'];
 function reverseno(arr) {
     // let start = 0;
@@ -12,3 +16,6 @@ function reverseno(arr) {
     return arr;
 }
 console.log(reverseno(arr)); 
+*/
+
+
