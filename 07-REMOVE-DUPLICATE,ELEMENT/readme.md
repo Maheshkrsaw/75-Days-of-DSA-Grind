@@ -1,49 +1,36 @@
-# 75 Days of DSA Grind – Day 06 🚀  
+# 75 Days of DSA Grind – Day 07 🚀  
 
-## 🧠 Topic: Time Complexity & Searching Algorithms  
+## 🧠 Topic: Remove Duplicates & Unique Elements in Arrays  
 
 ---
 
 ## 📚 Overview  
-Day 06 focused on **analyzing algorithm efficiency** through time and space complexity.  
-We explored **linear and binary search algorithms** and how to evaluate their performance using **Big O notation**.  
+Day 07 focused on **array manipulation** to remove duplicates and extract **unique elements**. This exercise strengthens understanding of loops, conditions, and JS data structures while improving problem-solving skills for real-world DSA challenges.  
 
 ---
 
 ## 🧩 Concepts Covered  
-
-### 1️⃣ Time Complexity  
-- **Constant O(1):** Accessing a single element, simple arithmetic.  
-- **Linear O(n):** Iterating through an array (linear search).  
-- **Quadratic O(n²):** Nested loops (pattern printing, matrix operations).  
-- **Logarithmic O(log n):** Binary search, divide-and-conquer approaches.  
-- **Exponential O(2ⁿ) & Factorial O(n!):** Recursive combinatorial problems.  
-
-### 2️⃣ Big O Notation  
-- Expresses the **upper bound of algorithm operations** relative to input size.  
-- Helps **compare efficiency** between different approaches.  
-
-### 3️⃣ Space Complexity  
-- Memory usage by variables, arrays, and recursion stacks.  
-- Important to optimize **both time and memory** in large-scale problems.  
-
-### 4️⃣ Searching Algorithms  
-- **Linear Search:** Check each element sequentially → O(n)  
-- **Binary Search:** Divide-and-conquer on sorted arrays → O(log n)  
+- Identifying **duplicate elements** in an array  
+- Removing duplicates to create a **unique elements array**  
+- Maintaining **original order** while filtering  
+- Understanding the difference between **mutating the original array** and creating a **new array**  
 
 ---
 
 ## 💡 Approach & Problem-Solving Strategy  
-- Identify **input size** and **repeated operations**.  
-- Analyze **loops, nested loops, and recursive calls**.  
-- Practice **search problems** to see theory in action.  
-- Compare **linear vs binary search** to understand practical efficiency gains.  
+1. Scan the array sequentially.  
+2. Check if an element is **already added** to the unique collection.  
+3. If not present, include it in the result array.  
+4. For JS, `Set` or `filter` methods can simplify the process.  
+5. Validate with **edge cases**: empty array, all duplicates, single element.  
 
 ---
 
-## 🌱 Reflection  
-Day 06 reinforced that **algorithm correctness alone is not enough**; understanding **how fast and efficient your solution is** is equally important.  
-Time and space complexity knowledge builds the foundation for **writing optimized DSA solutions**.  
+## 🌱 Key Learnings  
+- Array deduplication is a **common DSA and interview problem**.  
+- Using `Set` or `filter` improves **code readability and efficiency**.  
+- Maintaining order while removing duplicates requires careful iteration.  
+- Understanding this logic helps in **data cleaning, preparation, and optimization** tasks.  
 
 ---
 
@@ -52,3 +39,8 @@ Time and space complexity knowledge builds the foundation for **writing optimize
 - 💼 **LinkedIn:** [https://www.linkedin.com/in/maheshmahi07/](https://www.linkedin.com/in/maheshmahi07/)  
 - 🐦 **Twitter:** [https://x.com/kumarMahesh9304](https://x.com/kumarMahesh9304)  
 - 📂 **Repo:** [https://github.com/Maheshkrsaw/75-Days-of-DSA-Grind](https://github.com/Maheshkrsaw/75-Days-of-DSA-Grind)  
+
+---
+
+## 🏁 Reflection  
+Day 07 was about **cleaning and refining data in arrays**. Removing duplicates is simple but teaches **attention to detail and efficient array handling**, which is crucial for **coding interviews and real-world applications**.  
