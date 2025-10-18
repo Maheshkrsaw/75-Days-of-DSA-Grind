@@ -1,4 +1,4 @@
-let arr = ['m', 'a', 'h', 'e', 's', 'h'];
+let arr = ['h', 'e', 'l', 'l', 'o'];
 function reverseno(arr) {
     // let start = 0;
     let length=arr.length;
@@ -11,4 +11,4 @@ function reverseno(arr) {
     }
     return arr;
 }
-console.log(reverseno(arr)); // ['h','s','e','h','a','m']
+console.log(reverseno(arr)); 
