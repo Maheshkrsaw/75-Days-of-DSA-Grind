@@ -17,9 +17,6 @@ console.log(nums1); // [1, 2, 2, 5, 5, 8]
 
 */
 
-
-
-
 /*
 
 
@@ -56,28 +53,26 @@ console.log(merge(nums1, nums2));
 
 */
 
-
-
-let nums1 = [2,5,6];
-let nums2 = [1,2,3];
+let nums1 = [2, 5, 6];
+let nums2 = [1, 2, 3];
 
 function merge(nums1, nums2) {
   let m = nums1.length;
   let n = nums2.length;
-  let p1 = m-1; // pointer for nums1copy
-  let p2 = n -1; // pointer for nums2
+  let p1 = m - 1; // pointer for nums1copy
+  let p2 = n - 1; // pointer for nums2
 
-
-  for(let i=m+n-1 ; i=0 ; i--){
-    if(nums1[p1]>nums2[p2]){
-        nums1[i]=nums1[p1];
-        p1--;
-    }else{
-    nums1[i]=nums2[p2]
-p2--;    
-}
+  for (let i = m + n - 1; i >= 0; i--) {
+    if (p2 < 0) break;
+    if (p1 >= 0 && nums1[p1] > nums2[p2]) {
+      nums1[i] = nums1[p1];
+      p1--;
+    } else {
+      nums1[i] = nums2[p2];
+      p2--;
+    }
   }
-  return nums1
+  return nums1;
 }
 
 console.log(merge(nums1, nums2));
