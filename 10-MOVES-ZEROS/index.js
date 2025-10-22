@@ -26,8 +26,8 @@ console.log(moves(nums));
 */
 
 
-
-
+/*
+//conscutive no 
 
 let nums =[1,1,0,1,1];
 function consecutiveno(nums){
@@ -45,3 +45,4 @@ function consecutiveno(nums){
 }
 
 console.log(consecutiveno(nums));
+*/
