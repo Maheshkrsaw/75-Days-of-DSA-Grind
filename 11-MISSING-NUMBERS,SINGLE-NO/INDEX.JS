@@ -44,3 +44,6 @@ console.log(singleno(nums));
 
 
 */
+
+
+
