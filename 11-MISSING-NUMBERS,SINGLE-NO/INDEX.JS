@@ -18,3 +18,6 @@ console.log(missingno(nums));
 
 output:- 8
 */
+
+
+
