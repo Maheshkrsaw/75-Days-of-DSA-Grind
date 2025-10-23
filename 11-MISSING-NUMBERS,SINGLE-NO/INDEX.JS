@@ -19,9 +19,9 @@ console.log(missingno(nums));
 output:- 8
 */
 
+/*
 
-
-let nums=[2,2,1];
+let nums=[4,1,2,1,2];
 
 function singleno(nums){
     let hash={};
@@ -40,3 +40,7 @@ function singleno(nums){
 }
 
 console.log(singleno(nums));
+// 4
+
+
+*/
