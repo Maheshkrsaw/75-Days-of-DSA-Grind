@@ -53,6 +53,9 @@ console.log(merge(nums1, nums2));
 
 */
 
+
+/*
+
 let nums1 = [2, 5, 6];
 let nums2 = [1, 2, 3];
 
@@ -76,3 +79,10 @@ function merge(nums1, nums2) {
 }
 
 console.log(merge(nums1, nums2));
+
+
+*/
+
+
+
+
