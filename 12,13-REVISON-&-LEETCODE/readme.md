@@ -1,4 +1,0 @@
-fdgdtghfbfcbhgfhfghhggfghgfhfghhngjfhhjfgnhnhghjfnhjhgfhhgfhnhjnjnnhjnhnhnhhgnjhhnhghgnhbhgnhgnbnhn 
-
-
-gbgfbn gfnbfggbnhnbgfbgfbghbn
