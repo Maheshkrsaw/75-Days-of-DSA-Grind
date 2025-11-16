@@ -37,6 +37,7 @@ for (let i = 0; i < arr.length; i++) {
   console.log(arr[i]);
 }
 
+
 // Function example
 function add(x, y) {
   return x + y;
